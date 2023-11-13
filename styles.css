@@ -1,0 +1,82 @@
+    <style>
+        body {
+            padding-top: 56px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: #f8f9fa;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        /* Home Section Styling */
+        #home {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #f8f9fa;
+        }
+
+        #home img {
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        /* About Me Section Styling */
+        #about {
+            background-color: #ffffff;
+            padding: 80px 20px;
+            text-align: justify;
+        }
+
+        #about h2 {
+            color: #007bff;
+        }
+
+        /* Projects Section Styling */
+        #projects {
+            text-align: center;
+            background-color: #f8f9fa;
+            padding: 80px 20px;
+        }
+
+        #projects h2 {
+            color: #007bff;
+        }
+
+        .portfolio-item {
+            margin-bottom: 40px;
+        }
+
+        .portfolio-item img {
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .portfolio-item img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Contact Section Styling */
+        #contact {
+            background-color: #ffffff;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        #contact h2 {
+            color: #007bff;
+        }
+
+        /* Footer Styling */
+        footer {
+            padding: 20px 0;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+    </style>
